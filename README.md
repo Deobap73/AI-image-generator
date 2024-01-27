@@ -3,6 +3,7 @@
 Image Generator AI is an application that allows users to generate images from text descriptions using AI.
 
 
+![Logo](https://github.com/Deobap73/AI-image-generator/blob/3c9fb09ec928902a150f532077f6510499b25659/client/src/assets/imageAIGeneratorLogo.png)
 
 ## Features
 
@@ -10,9 +11,6 @@ Image Generator AI is an application that allows users to generate images from t
 - Generate images by entering text prompts
 - Browse and download images created by other users
 - User authentication to save generated images
-
-
-
 
 
 ## Built With
@@ -57,7 +55,6 @@ Image Generator AI is an application that allows users to generate images from t
 
 - Real-time preview
 - Full-screen mode
-![Logo](https://github.com/Deobap73/AI-image-generator/blob/3c9fb09ec928902a150f532077f6510499b25659/client/src/assets/imageAIGeneratorLogo.png)
 
 
 ## Roadmap
@@ -104,7 +101,7 @@ npm run server
 npm run client
  ```
 
-### Screenshot
+### Screenshots
 
 ![App_Screenshot](https://github.com/Deobap73/AI-image-generator/blob/main/client/src/assets/ImageAIGeneratorHomePage.png)
 ![App_Screenshot2](https://github.com/Deobap73/AI-image-generator/blob/d9fd3c4d379a7a6a61c1caed46c357492bcf6a70/client/src/assets/ImageAIGeneratorLoginPage.png)
