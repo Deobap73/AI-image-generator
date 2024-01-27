@@ -108,5 +108,8 @@ npm run client
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Deobap73/AI-image-generator/blob/d9fd3c4d379a7a6a61c1caed46c357492bcf6a70/client/src/assets/ImageAIGeneratorHomePage.png)
+![App Screenshot](https://github.com/Deobap73/AI-image-generator/blob/d9fd3c4d379a7a6a61c1caed46c357492bcf6a70/client/src/assets/ImageAIGeneratorLoginPage.png)
+![App Screenshot](https://github.com/Deobap73/AI-image-generator/blob/d9fd3c4d379a7a6a61c1caed46c357492bcf6a70/client/src/assets/ImageAIGeneratorCreateAccountPage.png)
+![App Screenshot](https://github.com/Deobap73/AI-image-generator/blob/d9fd3c4d379a7a6a61c1caed46c357492bcf6a70/client/src/assets/ImageAIGeneratorGererateImagePage.png)
 
