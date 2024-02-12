@@ -1,0 +1,219 @@
+// client/src/components/LoginPage.scss
+@import '../styles/images';
+@import '../styles/media-queries';
+@import '../styles/variables';
+
+.loginpage {
+  overflow: hidden;
+  position: fixed;
+  top: 3rem;
+  left: 35%;
+
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(20, 24, 27, 0.6)
+  );
+  backdrop-filter: blur(25px);
+  padding: var(--padding-21xl) var(--padding-45xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color_1);
+  font-family: var(--font-family_2);
+  z-index: 1000;
+  max-width: 80vw;
+
+  .close-button {
+    cursor: pointer;
+    position: relative;
+    top: 5%;
+    left: 55%;
+    color: #00ff10;
+  }
+
+  .loginpage-child {
+    cursor: pointer;
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    height: fit-content;
+    .img-logo {
+      width: 100%;
+      max-width: 140rem; /* Set a maximum to prevent the image from growing too large on larger screens */
+      height: auto; /* To maintain the image aspect ratio */
+      display: block; /* Ensures that the image respects the defined width */
+    }
+  }
+
+  .welcome-back-parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+
+    .welcome-back {
+      margin: 0;
+      position: relative;
+      font-size: inherit;
+      font-weight: 400;
+      font-family: var(--font-family_1);
+      white-space: pre-wrap;
+      font-size: var(--font-size-21xl);
+    }
+
+    .please-enter-your-email {
+      margin: 0;
+      position: relative;
+      font-size: var(--font-size-xl);
+    }
+  }
+
+  form {
+    border: 0;
+  }
+
+  .email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin: 0;
+    gap: var(--gap-3xs);
+
+    .email2 {
+      cursor: pointer;
+      position: relative;
+      text-align: left;
+      font-family: var(--font-family_2);
+      font-size: var(--font-size-xl);
+      color: var(--color_1);
+    }
+
+    .email-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--color-lime);
+      padding: 0 var(--padding-8xs);
+      width: fit-content;
+
+      .email3 {
+        position: relative;
+        width: 18.938rem;
+        display: inline-block;
+        flex-shrink: 0;
+        text-align: left;
+        font-family: var(--font-family_2);
+        font-size: var(--font-size-xl);
+        border: 0;
+        outline: 0;
+        background-color: var(--background-color_2);
+        color: var(--color_4);
+      }
+
+      .toggle-password {
+        color: var(--color_5);
+      }
+    }
+
+    .log-in-wrapper {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      border: 0;
+      padding: var(--padding-3xs);
+      background-color: var(--background-color_2);
+      border-radius: var(--br-3xs);
+      background: var(--color-background-button);
+      overflow: hidden;
+
+      .log-in {
+        position: relative;
+        width: 100px;
+        display: inline-block;
+        flex-shrink: 0;
+        text-align: center;
+        font-size: var(--font-size-base);
+        font-family: var(--font-family_2);
+        color: var(--color_2);
+      }
+    }
+  }
+
+  .forgot-password-link {
+    text-decoration: none;
+    text-align: center;
+    color: var(--color_1);
+
+    &:hover,
+    &:active,
+    &:visited {
+      color: var(--color_1);
+    }
+  }
+
+  .dont-have-an-account-yet-parent {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    width: 395px;
+    padding: var(--padding-3xs) 43px;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-base);
+
+    .dont-have-an {
+      margin: 0;
+      position: relative;
+      font-size: inherit;
+      font-weight: 400;
+      font-family: var(--font-family_1);
+    }
+
+    .registerButton {
+      cursor: pointer;
+      border: 0;
+      padding: var(--padding-3xs);
+      background-color: var(--background-color_2);
+      border-radius: var(--br-3xs);
+      background: var(--color-background-button);
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .loregisterButtonSubmit {
+        position: relative;
+        font-size: var(--font-size-base);
+        font-family: var(--font-family_2);
+        color: var(--color_2);
+        text-align: center;
+        display: inline-block;
+        width: 150px;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

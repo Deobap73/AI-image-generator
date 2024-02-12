@@ -1,0 +1,58 @@
+// client/src/components/ButtonStartCreating.scss
+
+@import '../styles/media-queries';
+@import '../styles/variables';
+
+.buttonstartcreating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black); /* Use variable */
+  font-family: var(--font-family-2); /* Use variable */
+
+  .ellipse-group {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: var(--br-3xs);
+    background: linear-gradient(90.36deg, #00ff10, rgba(204, 255, 0, 0.8));
+    width: 16.25rem;
+    height: 3.75rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    color: var(--color-inherit); /* Use variable */
+
+    .frame-inner {
+      position: relative;
+      border-radius: 50%;
+      background-color: var(--background-color-1); /* Use variable */
+      width: 0.06rem;
+      height: 0.06rem;
+    }
+
+    .start-creating-for {
+      position: relative;
+      white-space: pre-wrap;
+      font-size: var(--font-size-5xl);
+    }
+  }
+
+  .create-your-digital {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    font-family: var(--font-family-1); /* Use variable */
+    color: var(--color-white); /* Use variable */
+  }
+}
