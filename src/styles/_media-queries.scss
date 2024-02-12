@@ -465,7 +465,7 @@
   }
 }
 
-// loginPage
+// createaccountpage
 
 @media screen and (max-width: 960px) {
   .loginpage {
@@ -479,21 +479,8 @@
 @media screen and (max-width: 680px) {
   .loginpage {
     left: 10%;
-    .close-button {
-      top: 0;
-    }
-    .email-form {
-      gap: var(--gap-3xs);
-      width: fit-content;
-    }
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .loginpage {
-    left: 10%;
     gap: var(--gap-xl);
-    padding: var(--padding-8xs) var(--padding-11xl);
+    padding: var(--padding-12xs) var(--padding-8xs);
     margin: 0;
     height: fit-content;
     .loginpage-child {
@@ -502,9 +489,110 @@
 
     .close-button {
       top: 0;
+      left: 45%;
     }
     .email-form {
       gap: var(--gap-3xs);
+      padding-left: 0.5rem;
+      max-width: 17.5rem;
+      .email2,
+      .email3 {
+        max-width: 13.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .loginpage {
+    left: 10%;
+    gap: var(--gap-xl);
+    padding: var(--padding-12xs) var(--padding-8xs);
+    margin: 0;
+    height: fit-content;
+    .loginpage-child {
+      height: fit-content;
+    }
+
+    .close-button {
+      top: 0;
+      left: 45%;
+    }
+    .email-form {
+      gap: var(--gap-3xs);
+      padding-left: 0.5rem;
+      max-width: 17.5rem;
+      .email2,
+      .email3 {
+        max-width: 13.5rem;
+      }
+    }
+  }
+}
+
+// createAccount Page
+
+@media screen and (max-width: 960px) {
+  .createaccountpage {
+    left: 15%;
+  }
+  .createaccountpage-child {
+    height: 7.3rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .createaccountpage {
+    left: 10%;
+    gap: var(--gap-xl);
+    padding: var(--padding-12xs) var(--padding-8xs);
+    margin: 0;
+    height: fit-content;
+    .createaccountpage-child {
+      height: fit-content;
+    }
+
+    .close-button {
+      top: 0;
+      left: 45%;
+    }
+    .user-name-parent {
+      gap: var(--gap-3xs);
+      padding-left: 0.5rem;
+      max-width: 17.5rem;
+      .user-name,
+      .user-name1 {
+        max-width: 13.5rem;
+        font-size: var(--font-size-xl);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .createaccountpage {
+    left: 10%;
+    gap: var(--gap-xl);
+    padding: var(--padding-12xs) var(--padding-8xs);
+    margin: 0;
+    height: fit-content;
+    .createaccountpage-child {
+      height: fit-content;
+    }
+
+    .close-button {
+      top: 0;
+      left: 45%;
+    }
+    .user-name-parent {
+      gap: var(--gap-3xs);
+      padding-left: 0.5rem;
+      max-width: 17.5rem;
+      .user-name,
+      .user-name1 {
+        max-width: 13.5rem;
+        font-size: var(--font-size-xl);
+      }
     }
   }
 }

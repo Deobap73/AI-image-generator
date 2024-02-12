@@ -6,33 +6,35 @@
 
 .createaccountpage {
   overflow: hidden;
+  position: fixed;
+  top: 3rem;
+  left: 35%;
+
+  height: fit-content;
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  justify-content: space-evenly;
-  border-radius: var(--border-radius-xl);
+  justify-content: center;
+  border-radius: var(--br-xl);
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.6),
     rgba(20, 24, 27, 0.6)
   );
   backdrop-filter: blur(25px);
-  // padding: var(--padding-3xs) var(--padding-21xl);
+  padding: var(--padding-21xl) var(--padding-45xl);
   gap: var(--gap-21xl);
   text-align: left;
   font-size: var(--font-size-13xl);
   color: var(--color_1);
   font-family: var(--font-family_2);
-  position: fixed;
-  top: 3rem;
-  left: 35%;
-  z-index: 1;
-  width: 27vw;
-  height: 88vh;
+  z-index: 1000;
+  max-width: 80vw;
 
   .close-button {
     cursor: pointer;
@@ -52,6 +54,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    .img-logo {
+      width: 100%;
+      max-width: 140rem; /* Set a maximum to prevent the image from growing too large on larger screens */
+      height: auto; /* To maintain the image aspect ratio */
+      display: block; /* Ensures that the image respects the defined width */
+    }
   }
 
   .hello-there-parent {

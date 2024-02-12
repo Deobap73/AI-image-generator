@@ -6,6 +6,7 @@ import { MyContext } from '../contexts/context';
 import baseURL from '../config/api';
 import { IoMdCloseCircle } from 'react-icons/io';
 import { TbEye, TbEyeClosed } from 'react-icons/tb';
+import Logo from '../assets/imageAIGeneratorLogo.png';
 import './CreateAccountPage.scss';
 
 export default function CreateAccountPage() {
@@ -41,7 +42,9 @@ export default function CreateAccountPage() {
   return (
     <div className='createaccountpage'>
       <IoMdCloseCircle className='close-button' onClick={closeModal} />
-      <Link className='createaccountpage-child' to='/' />
+      <Link to='/' className='createaccountpage-child'>
+        <img className='img-logo' alt='' src={Logo} />
+      </Link>
       <div className='hello-there-parent'>
         <h2 className='hello-there'>Hello there!</h2>
         <p className='welcome-to-imageaigenerator'>{`Welcome to ImageAIGenerator, please enter your email & password to create an account`}</p>
